@@ -1,0 +1,33 @@
+@media screen and (max-width: 1366px) {
+  .form_and_gallery .images-gallery {
+    padding: 0 20px; } }
+
+@media screen and (max-width: 767px) {
+  .form_and_gallery, .form_and_gallery2 {
+    padding: 330px 20px 250px; }
+    .form_and_gallery .main-wrap .images-gallery a, .form_and_gallery2 .main-wrap .images-gallery a {
+      width: 48%; }
+    .form_and_gallery .main-wrap .info-content, .form_and_gallery2 .main-wrap .info-content {
+      font-size: 18px; }
+  .footer .form-wrap {
+    padding: 0 20px 30px; } }
+
+@media screen and (max-width: 479px) {
+  .form_and_gallery, .form_and_gallery2 {
+    padding: 230px 20px 250px; }
+    .form_and_gallery .main-wrap .heading h2, .form_and_gallery2 .main-wrap .heading h2 {
+      font-size: 60px; }
+    .form_and_gallery .main-wrap .images-gallery, .form_and_gallery2 .main-wrap .images-gallery {
+      padding: 0 20px; }
+      .form_and_gallery .main-wrap .images-gallery a, .form_and_gallery2 .main-wrap .images-gallery a {
+        width: 48%; }
+    .form_and_gallery .main-wrap .form-wrap .consultation-form .left-column, .form_and_gallery .main-wrap .form-wrap .consultation-form .right-column, .form_and_gallery .main-wrap .form-wrap .consultation-form1 .left-column, .form_and_gallery .main-wrap .form-wrap .consultation-form1 .right-column, .form_and_gallery2 .main-wrap .form-wrap .consultation-form .left-column, .form_and_gallery2 .main-wrap .form-wrap .consultation-form .right-column, .form_and_gallery2 .main-wrap .form-wrap .consultation-form1 .left-column, .form_and_gallery2 .main-wrap .form-wrap .consultation-form1 .right-column {
+      width: 100%; }
+    .form_and_gallery .main-wrap .info-content, .form_and_gallery2 .main-wrap .info-content {
+      font-size: 15px; }
+  .footer .form-wrap {
+    padding: 0 20px 30px; }
+    .footer .form-wrap .consultation-form3 .left-column, .footer .form-wrap .consultation-form3 .right-column {
+      width: 100%; }
+  #order-tour .form-wrap .consultation-form2 .left-column, #order-tour .form-wrap .consultation-form2 .right-column {
+    width: 100%; } }

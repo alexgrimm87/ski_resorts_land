@@ -1,0 +1,296 @@
+.form-wrap {
+  max-width: 670px;
+  margin: 0 auto;
+  .consultation-form, .consultation-form1, .consultation-form3, .consultation-form2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .left-column {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      label {
+        font-size: 24px;
+        margin-bottom: 35px;
+        text-transform: uppercase;
+        span {
+          font-size: 17px;
+          text-transform: none;
+        }
+      }
+    }
+    .right-column {
+      width: 45%;
+      display: flex;
+      flex-direction: column;
+      input {
+        background: #a7abcb;
+        border: 2px solid #fff;
+        border-radius: 5px;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+        color: #252525;
+        &::-webkit-input-placeholder {
+          color: #252525;
+        }
+        &::-moz-placeholder {
+          color: #252525;
+        }
+        &:-moz-placeholder {
+          color: #252525;
+        }
+        &:-ms-input-placeholder {
+          color: #252525;
+        }
+        &:last-of-type {
+          margin-bottom: 30px;
+        }
+        &.error {
+          border: 2px solid red;
+        }
+      }
+      button {
+        border: none;
+        border-radius: 5px;
+        background: #33a9f3;
+        font-weight: 700;
+        font-size: 24px;
+        color: #fff;
+        text-transform: uppercase;
+        padding: 20px 0px;
+        font-family: ProximaNovaExCn;
+      }
+    }
+  }
+}
+
+.form_and_gallery, .form_and_gallery2 {
+  background: url("../images/form_and_gellery_background.jpg") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  padding-top: 330px;
+  padding-bottom: 250px;
+  .main-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: ProximaNovaCond;
+    .heading {
+      text-align: center;
+      h2 {
+        font-size: 80px;
+        text-transform: uppercase;
+      }
+    }
+    .info-content {
+      font-size: 24px;
+      text-align: center;
+    }
+    .images-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      overflow: hidden;
+      a {
+        margin-bottom: 60px;
+        max-width: 384px;
+        position: relative;
+        width: 32%;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 35px;
+          height: 35px;
+          right: 15px;
+          bottom: 15px;
+          background: url("../images/zoom-scale.png") no-repeat;
+        }
+        &:hover {
+          box-shadow: -10px 10px 45px 0 rgba(0, 0, 0, 0.8)
+        }
+      }
+    }
+  }
+}
+
+.gallery-image, .gallery-image1 {
+  .fancybox-skin {
+    .fancybox-outer {
+      .fancybox-prev {
+        span {
+          visibility: visible;
+          background: url("../images/fancy-gallery-arrow-left.png") no-repeat;
+          width: 65px;
+          height: 65px;
+        }
+      }
+      .fancybox-next {
+        span {
+          visibility: visible;
+          background: url("../images/fancy-gallery-arrow-right.png") no-repeat;
+          width: 65px;
+          height: 65px;
+        }
+      }
+    }
+  }
+}
+
+.fancybox-close {
+  background-image: url("../images/close-button.png");
+  width: 49px;
+  height: 49px;
+  top: 0;
+  right: 0;
+}
+
+.form_and_gallery2 {
+  background: url("../images/same-block-background.png") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.map-section {
+  width: 100%;
+  height: 530px;
+  position: relative;
+}
+
+#map {
+  position: absolute;
+  top: -385px;
+  z-index: -1;
+  height: calc(100% + 385px);
+  width: 100%;
+}
+
+.gm-style-iw * {
+  display: block;
+  width: 100%;
+}
+
+.gm-style-iw h4, .gm-style-iw p {
+  margin: 0;
+  padding: 0;
+}
+
+.gm-style-iw a {
+  color: #4272db;
+}
+
+.gm-style-iw {
+  position: static !important;
+  height: 1px !important;
+  .marker-description {
+    position: static !important;
+    &:after {
+      content: "Шахдаг, Азербайджан";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -5px;
+      width: 180px;
+      height: 40px;
+      background: #71c0f0;
+      line-height: 38px;
+      text-align: center;
+      border-radius: 10px;
+      font-family: ProximaNovaExCn;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      z-index: 99999;
+    }
+  }
+
+  .marker-description1 {
+    position: static !important;
+    &:after {
+      content: "Габала, Азербайджан";
+      display: block;
+      position: absolute;
+      top: 0;
+      left: -5px;
+      width: 180px;
+      height: 40px;
+      background: #71c0f0;
+      line-height: 38px;
+      text-align: center;
+      border-radius: 10px;
+      font-family: ProximaNovaExCn;
+      font-size: 18px;
+      font-weight: 700;
+      color: #fff;
+      z-index: 99999;
+    }
+  }
+}
+
+.footer {
+  background: #252525;
+  color: #fff;
+  padding: 55px 0 0 0;
+  .footer-head {
+    text-align: center;
+    h2 {
+      text-transform: uppercase;
+      font-family: ProximaNovaExCn;
+      font-size: 80px;
+      font-weight: 700;
+      margin: 0 0 65px 0;
+    }
+  }
+
+  .bottom-copyright {
+    background: #000000;
+    padding: 10px 0;
+    text-align: center;
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.order-tour-wrap {
+  #order-tour {
+    background: url('../images/pop-up-background.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: #fff;
+  }
+  .fancybox-close {
+    background: #fff;
+    border-radius: 50%;
+    width: 39px;
+    height: 39px;
+    top: -20px;
+    right: -20px;
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) rotate(55deg);
+      width: 100%;
+      height: 1px;
+      background: #35aaf3;
+    }
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%) rotate(-55deg);
+      width: 100%;
+      height: 1px;
+      background: #35aaf3;
+    }
+  }
+}

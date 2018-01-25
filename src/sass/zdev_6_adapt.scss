@@ -1,0 +1,74 @@
+@media screen and (max-width:1366px) {
+  .form_and_gallery {
+    .images-gallery {
+      padding: 0 20px;
+    }
+  }
+}
+@media screen and (max-width:767px) {
+  .form_and_gallery, .form_and_gallery2 {
+    padding: 330px 20px 250px;
+    .main-wrap {
+      .images-gallery {
+        a {
+          width: 48%;
+        }
+      }
+      .info-content {
+        font-size: 18px;
+      }
+    }
+  }
+  .footer {
+    .form-wrap {
+      padding: 0 20px 30px;
+    }
+  }
+}
+@media screen and (max-width:479px) {
+  .form_and_gallery, .form_and_gallery2 {
+    padding: 230px 20px 250px;
+    .main-wrap {
+      .heading {
+        h2 {
+          font-size: 60px;
+        }
+      }
+      .images-gallery {
+        padding: 0 20px;
+        a {
+          width: 48%;
+        }
+      }
+      .form-wrap {
+        .consultation-form, .consultation-form1 {
+          .left-column, .right-column {
+            width: 100%;
+          }
+        }
+      }
+      .info-content {
+        font-size: 15px;
+      }
+    }
+  }
+  .footer {
+    .form-wrap {
+      padding: 0 20px 30px;
+      .consultation-form3 {
+        .left-column, .right-column {
+          width: 100%;
+        }
+      }
+    }
+  }
+  #order-tour {
+    .form-wrap {
+      .consultation-form2 {
+        .left-column, .right-column {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

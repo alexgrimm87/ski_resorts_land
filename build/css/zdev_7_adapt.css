@@ -1,0 +1,219 @@
+@media screen and (max-width: 1366px) {
+  .book-tour .book-tour-front .title-resorts {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .shahdag .video-wrap {
+    height: 660px; } }
+
+@media screen and (max-width: 1200px) {
+  .tufandag .tufandag-pic {
+    height: auto; }
+    .tufandag .tufandag-pic img {
+      -o-object-fit: cover;
+      object-fit: cover;
+      height: auto; } }
+
+@media screen and (max-width: 1152px) {
+  .header .header-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .header .header-wrap .header-left {
+      width: 100%;
+      max-width: 560px; }
+      .header .header-wrap .header-left .header-logos {
+        width: 100%; }
+    .header .header-wrap .header-right-wrap .header-right {
+      width: 100%; }
+      .header .header-wrap .header-right-wrap .header-right .main-menu {
+        max-width: 345px;
+        width: 100%; }
+  .book-tour .book-tour-front {
+    max-width: 870px; }
+    .book-tour .book-tour-front p {
+      font-size: 55px; }
+      .book-tour .book-tour-front p:before {
+        left: -70px;
+        bottom: -85px; }
+      .book-tour .book-tour-front p:after {
+        right: -70px;
+        bottom: -85px; }
+    .book-tour .book-tour-front .title-resorts {
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -moz-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      .book-tour .book-tour-front .title-resorts span {
+        font-size: 100px; }
+        .book-tour .book-tour-front .title-resorts span:first-child {
+          margin-left: 0; } }
+
+@media screen and (max-width: 1080px) {
+  .equipment {
+    padding: 113px 15px 0 15px; } }
+
+@media screen and (max-width: 1024px) {
+  .header .header-wrap .header-right-wrap .header-right {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .shahdag .video-wrap {
+    height: auto; } }
+
+@media screen and (max-width: 900px) {
+  .book-tour .book-tour-front p {
+    font-size: 37px; }
+    .book-tour .book-tour-front p:before {
+      left: 0px;
+      bottom: -165px; }
+    .book-tour .book-tour-front p:after {
+      right: 0px;
+      bottom: -165px; }
+  .title {
+    font-size: 70px; } }
+
+@media screen and (max-width: 767px) {
+  .book-tour .book-tour-pic.book-tour-right {
+    display: none; }
+  .book-tour .book-tour-front p {
+    margin-bottom: 50px;
+    font-size: 54px; }
+    .book-tour .book-tour-front p:before, .book-tour .book-tour-front p:after {
+      display: none; }
+  .book-tour .book-tour-front .title-resorts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+  .shahdag .video-wrap .video-controls-wrap {
+    padding: 13px 0 20px 0; }
+  .equipment {
+    margin-bottom: 70px; }
+    .equipment.equipment-bg {
+      margin-bottom: 70px; }
+    .equipment .equipment-wrap {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -moz-box-orient: vertical;
+      -moz-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -moz-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .equipment .equipment-wrap .equipment-item {
+        margin-bottom: 25px;
+        max-width: 432px; }
+        .equipment .equipment-wrap .equipment-item:nth-child(2) > p {
+          max-width: 432px; } }
+
+@media screen and (max-width: 576px) {
+  .title {
+    font-size: 60px; }
+  .header .header-wrap .header-left .header-logos a:nth-child(2) {
+    margin: 0 10px; }
+  .header .header-wrap .header-right-wrap {
+    width: 100%; }
+    .header .header-wrap .header-right-wrap .header-right .main-menu {
+      max-width: 100%;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+  .book-tour .book-tour-front .title-resorts span {
+    font-size: 76px; }
+  .shahdag .video-wrap .video-controls-wrap {
+    padding: 7px 0 10px 0; } }
+
+@media screen and (max-width: 540px) {
+  .equipment h3 {
+    font-size: 37px; } }
+
+@media screen and (max-width: 512px) {
+  .book-tour .book-tour-front p {
+    font-size: 47px; } }
+
+@media screen and (max-width: 479px) {
+  .book-tour .book-tour-front p {
+    margin-bottom: 100px;
+    font-size: 33px;
+    line-height: 50px; }
+  .book-tour .book-tour-front .title-resorts {
+    margin-bottom: 160px; }
+    .book-tour .book-tour-front .title-resorts span {
+      font-size: 62px; }
+  .book-tour .book-tour-front a {
+    height: 65px;
+    font-size: 30px;
+    line-height: 65px; }
+  .shahdag .video-wrap .video-controls-wrap {
+    padding: 6px 0 6px 0; }
+    .shahdag .video-wrap .video-controls-wrap .video-controls {
+      width: 160px; }
+      .shahdag .video-wrap .video-controls-wrap .video-controls span.prev {
+        height: 20px;
+        border: 10px solid transparent;
+        border-right: 20px solid white; }
+        .shahdag .video-wrap .video-controls-wrap .video-controls span.prev:before {
+          top: -10px;
+          left: 9px;
+          border: 10px solid transparent;
+          border-right: 21px solid white; }
+      .shahdag .video-wrap .video-controls-wrap .video-controls span.play {
+        width: 26px;
+        height: 26px; }
+        .shahdag .video-wrap .video-controls-wrap .video-controls span.play:after {
+          top: 5px;
+          left: 8px;
+          border: 8px solid transparent;
+          border-left: 13px solid #2e2e2d; }
+        .shahdag .video-wrap .video-controls-wrap .video-controls span.play.pause:before {
+          top: 6px;
+          left: 7px;
+          height: 14px;
+          width: 4px; }
+        .shahdag .video-wrap .video-controls-wrap .video-controls span.play.pause:after {
+          top: 6px;
+          left: 15px;
+          height: 14px;
+          width: 4px; }
+      .shahdag .video-wrap .video-controls-wrap .video-controls span.next {
+        height: 20px;
+        border: 10px solid transparent;
+        border-left: 20px solid white; }
+        .shahdag .video-wrap .video-controls-wrap .video-controls span.next:after {
+          top: -10px;
+          right: 10px;
+          border: 10px solid transparent;
+          border-left: 21px solid white; } }
+
+@media screen and (max-width: 420px) {
+  .equipment h3 {
+    font-size: 27px;
+    line-height: 40px; }
+  .title {
+    font-size: 50px; } }
+
+@media screen and (max-width: 390px) {
+  .book-tour .book-tour-front a {
+    width: 100%; } }
